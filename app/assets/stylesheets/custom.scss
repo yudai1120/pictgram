@@ -106,8 +106,13 @@ h1,h2 {
 }
 
 .topic-index-wrapper {
-  padding-top: 70px;
-  background-color: #fafafa;
+  background-image: url('block.png');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  
   .topic-index-single {
     background-color: #fff;
     padding-top: 20px;
